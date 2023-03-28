@@ -1,0 +1,344 @@
+{
+  "id": "51a237d5-f16b-4421-b3b1-ae8c3defb0f9",
+  "version": "2.0",
+  "name": "tunisie_booking",
+  "url": "https://www.tunisiebooking.com",
+  "tests": [{
+    "id": "f9587e1b-1d6c-438b-999b-8b4bc39f25fe",
+    "name": "dates_same_month",
+    "commands": [{
+      "id": "37acfafe-18e1-4704-8a5a-f3dbf7b3df05",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a24cf44b-a14f-4ff8-9c8f-a238f2b2bdd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "960x946",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "005cc8e3-5ba4-426d-bf9d-bdb133c6afbf",
+      "comment": "",
+      "command": "click",
+      "target": "id=check1",
+      "targets": [
+        ["id=check1", "id"],
+        ["css=#check1", "css:finder"],
+        ["xpath=//div[@id='check1']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0afdbc38-2711-4330-902f-591444ef6fc4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=17",
+      "targets": [
+        ["linkText=17", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'17')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[3]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//td[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'17')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13513fa5-9e62-4c50-8870-afb45f72230a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=19",
+      "targets": [
+        ["linkText=19", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'19')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[3]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'19')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "814bd007-298c-4863-bdd3-349e621597a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonr",
+      "targets": [
+        ["id=boutonr", "id"],
+        ["css=#boutonr", "css:finder"],
+        ["xpath=//button[@id='boutonr']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rechercher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "181d7260-c31b-410a-89a2-903e01631fec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,276)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d8a4893-76b8-4293-a2b0-151edb62f314",
+      "comment": "",
+      "command": "click",
+      "target": "css=#plus_res > img",
+      "targets": [
+        ["css=#plus_res > img", "css:finder"],
+        ["xpath=//img[@title=\"plus d'hotels\"]", "xpath:img"],
+        ["xpath=//img[@onclick='plus_resultat()']", "xpath:attributes"],
+        ["xpath=//div[@id='plus_res']/img", "xpath:idRelative"],
+        ["xpath=//div[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3a55997e-5283-48c8-a5ee-5a517f8af8fa",
+    "name": "dates_next_month",
+    "commands": [{
+      "id": "3a2635ca-5078-4e16-ad2f-a767684bddde",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0683d61e-128f-43ae-97c7-c5de6742fea1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "960x946",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87ae96f1-b3c3-402e-9202-64415094ab25",
+      "comment": "",
+      "command": "click",
+      "target": "id=check1",
+      "targets": [
+        ["id=check1", "id"],
+        ["css=#check1", "css:finder"],
+        ["xpath=//div[@id='check1']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "550a5d17-0e0f-44fc-a4f0-34b3096ca9c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-icon-circle-triangle-e",
+      "targets": [
+        ["css=.ui-icon-circle-triangle-e", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Suiv>')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "912417d9-c52b-438b-8187-11ed3b151ee0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=14",
+      "targets": [
+        ["linkText=14", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'14')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[3]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
+        ["xpath=//tr[3]/td[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'14')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6cd0414-df0c-41d6-9765-c8405a2b9556",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=16",
+      "targets": [
+        ["linkText=16", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'16')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[3]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'16')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a8154a0-80de-4245-acca-12336aeecfe2",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonr",
+      "targets": [
+        ["id=boutonr", "id"],
+        ["css=#boutonr", "css:finder"],
+        ["xpath=//button[@id='boutonr']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rechercher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d28bf5de-9f35-4d1f-87b7-9edb659d4a1a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,299)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64796167-6c10-42e5-8636-7071651e6ff5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#plus_res > img",
+      "targets": [
+        ["css=#plus_res > img", "css:finder"],
+        ["xpath=//img[@title=\"plus d'hotels\"]", "xpath:img"],
+        ["xpath=//img[@onclick='plus_resultat()']", "xpath:attributes"],
+        ["xpath=//div[@id='plus_res']/img", "xpath:idRelative"],
+        ["xpath=//div[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5e5a4653-9d75-4c7a-8682-7d6745d0ab43",
+    "name": "change_city",
+    "commands": [{
+      "id": "ed607239-aefc-4602-a90d-c51e757647d0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9261000-abc7-4521-bc1d-8326a852d7a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "960x946",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2ed0cbf-79bd-4f1f-aeab-0340778dc230",
+      "comment": "",
+      "command": "select",
+      "target": "id=ville_des",
+      "targets": [],
+      "value": "label=Douz"
+    }, {
+      "id": "dcbfd93b-3ce9-4230-8c25-82ec26b714e2",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=ville_des",
+      "targets": [
+        ["id=ville_des", "id"],
+        ["name=ville", "name"],
+        ["css=#ville_des", "css:finder"],
+        ["xpath=//select[@id='ville_des']", "xpath:attributes"],
+        ["xpath=//div[@id='moter-dest']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-0.421875,0"
+    }, {
+      "id": "2bca57d5-544a-4a69-a4d9-59560ccba55d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=ville_des",
+      "targets": [
+        ["id=ville_des", "id"],
+        ["name=ville", "name"],
+        ["css=#ville_des", "css:finder"],
+        ["xpath=//select[@id='ville_des']", "xpath:attributes"],
+        ["xpath=//div[@id='moter-dest']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-0.421875,0"
+    }, {
+      "id": "701833fc-e593-4454-9854-8a8d20e1131a",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=ville_des",
+      "targets": [
+        ["id=ville_des", "id"],
+        ["name=ville", "name"],
+        ["css=#ville_des", "css:finder"],
+        ["xpath=//select[@id='ville_des']", "xpath:attributes"],
+        ["xpath=//div[@id='moter-dest']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-0.421875,0"
+    }, {
+      "id": "ad2f9d13-1011-4f5a-a3e0-f201be96612f",
+      "comment": "",
+      "command": "click",
+      "target": "id=check1",
+      "targets": [
+        ["id=check1", "id"],
+        ["css=#check1", "css:finder"],
+        ["xpath=//div[@id='check1']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efd1508c-c900-4485-a236-91fd3c69f90a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=24",
+      "targets": [
+        ["linkText=24", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'24')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[4]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//tr[4]/td[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'24')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e823b4e4-ff56-4d16-ae39-7207ee2519cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=26",
+      "targets": [
+        ["linkText=26", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'26')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[4]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'26')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31cdef27-ec0e-48fa-8ebe-f1d563e99311",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonr",
+      "targets": [
+        ["id=boutonr", "id"],
+        ["css=#boutonr", "css:finder"],
+        ["xpath=//button[@id='boutonr']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rechercher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "629ff9f9-fb0a-4225-b170-5639d29aa0e9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,375)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b3b86ebd-edc8-4038-bf55-6331ccf83736",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.tunisiebooking.com/"],
+  "plugins": []
+}
